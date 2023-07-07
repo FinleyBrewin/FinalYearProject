@@ -71,7 +71,7 @@ public class PeopleController {
         String password = myCreds.getPassword();
         String username = myCreds.getUsername();
         // the string to connect to the database
-        String cnnString = "jdbc:sqlserver://people-database.database.windows.net:1433;"
+        String cnnString = "jdbc:sqlserver://[REMOVED];"
                 + "database=PeopleDatabase;"
                 + "user=" + username + ";"
                 + "password=" + password + ";"
